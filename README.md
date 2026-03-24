@@ -101,5 +101,5 @@ because your workspace should feel as good as it looks.
 
 ## 📌 Author
 
-Shirayuki ✨
+✨Shirayuki(Musfirat)✨
 
