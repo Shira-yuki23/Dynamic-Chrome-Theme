@@ -8,11 +8,70 @@
       height: 100vh;
       background-size: cover;
       background-position: center;
+      background-repeat: no-repeat;
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: rgba(246, 134, 194, 0.815);
+    }
+
+    .search-box {
+      margin-bottom: 30px;
+    }
+
+    input {
+      padding: 12px 20px;
+      width: 400px;
+      border-radius: 25px;
+      border: none;
+      outline: none;
+      font-size: 16px;
+    }
+
+    .links {
+      display: flex;
+      gap: 20px;
+    }
+
+    .link {
+      text-decoration: none;
+      color: white;
+      background: rgba(237, 107, 174, 0.616);
+      padding: 10px 15px;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .link:hover {
+      background: rgba(250, 181, 181, 0.8);
     }
   </style>
 </head>
 <body>
-<script src="script.js"></script>
+
+  <div class="search-box">
+    <form action="https://www.google.com/search" method="GET">
+      <input type="text" name="q" placeholder="Search Google..." />
+    </form>
+  </div>
+
+ <div class="links">
+  <a class="link" href="https://youtube.com">
+    <img src="https://www.google.com/s2/favicons?sz=64&domain=youtube.com">
+  </a>
+
+  <a class="link" href="https://github.com">
+    <img src="https://www.google.com/s2/favicons?sz=64&domain=github.com">
+  </a>
+
+  <a class="link" href="https://mail.google.com">
+    <img src="https://www.google.com/s2/favicons?sz=64&domain=gmail.com">
+  </a>
+</div>
+
+  <script src="script.js"></script>
 
 </body>
 </html>
