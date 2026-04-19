@@ -1,8 +1,22 @@
 {
   "manifest_version": 3,
-  "name": "Dynamic Autumn Theme",
+  "name": "Pink_Yellow_Girl_Theme_by_Musfirat",
   "version": "1.0",
-  "chrome_url_overrides": {
-    "newtab": "newtab.html"
+  "theme": {
+     "images": {
+      "theme_ntp_background": "1.png"
+    },
+    "properties": {
+  "ntp_background_alignment": "center",
+  "ntp_background_repeat": "no-repeat"
+    },
+    "colors": {
+      "frame": [254,255,167],
+      "frame_inactive": [254,255,186],
+      "toolbar": [255, 183, 206],
+      "tab_text": [225, 21, 132],
+      "bookmark_text": [225, 21, 132],
+      "ntp_background": [255, 183, 206]
+    }
   }
 }
